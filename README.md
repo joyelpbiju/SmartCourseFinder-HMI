@@ -47,6 +47,7 @@ E:/HSM/project_hmi/webappcoursespot/db/  -setting up the database
 python app.py - command to run  the application
 ```
 
+ 
   ## Querying Courses
 You can search for courses using either explicit operators or natural language queries. Examples of supported queries:
 
