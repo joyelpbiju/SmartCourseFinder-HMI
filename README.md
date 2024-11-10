@@ -39,12 +39,12 @@ Make sure you have the following installed:
 - spaCy (for natural language processing)
 - Googletrans (for language translation)
 
-
+##Libraries 
 ```bash
 pip install Flask sqlite3 numpy sentence-transformers googletrans==4.0.0-rc1 spacy
 python -m spacy download en_core_web_sm
-E:/HSM/project_hmi/webappcoursespot/db/  -setting up the database 
-python app.py - command to run  the application
+E:/HSM/project_hmi/webappcoursespot/db/  -setting up the database (path to the database)
+python app.py    -command to run  the application
 ```
 
  
