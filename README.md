@@ -39,7 +39,7 @@ Make sure you have the following installed:
 - spaCy (for natural language processing)
 - Googletrans (for language translation)
 
-##Libraries 
+## Libraries 
 ```bash
 pip install Flask sqlite3 numpy sentence-transformers googletrans==4.0.0-rc1 spacy
 python -m spacy download en_core_web_sm
