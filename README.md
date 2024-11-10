@@ -44,3 +44,41 @@ Install the necessary libraries using `pip`:
 
 ```bash
 pip install Flask sqlite3 numpy sentence-transformers googletrans==4.0.0-rc1 spacy
+python -m spacy download en_core_web_sm
+E:/HSM/project_hmi/webappcoursespot/db/  -setting up the database 
+python app.py - command to run  the application
+
+
+## Querying Courses
+You can search for courses using either explicit operators or natural language queries. Examples of supported queries:
+
+- **Explicit Queries**: Use operators like `title:`, `instructor:`, `credit:`, etc., to narrow down results.
+- **Implicit Queries**: Enter natural language queries (e.g., "courses on AI taught by Smith in the summer term") to get results through the system's NLP parsing.
+
+## Accessing Course Details
+Click on any course in the search results to view detailed information, including learning objectives, course content, prerequisites, etc. You can also translate the details between English and German.
+
+## Downloading Course Files
+If a course has an associated PDF file, you can download it by clicking the "Download Course PDF" button in the course details section.
+
+## Directory Structure
+
+- `app.py`: Main backend application file with route handlers and query processing.
+- `index.html`: Frontend HTML file for rendering the user interface.
+- `mappings.py`: Contains mappings and synonyms used for converting implicit queries to explicit ones.
+
+## Future Enhancements
+- 🌍 **Add more languages for translation.**
+- 🤖 **Improve the parsing for more complex natural language queries.**
+- 📚 **Extend synonym mappings for additional terms.**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
+
+
+
+
