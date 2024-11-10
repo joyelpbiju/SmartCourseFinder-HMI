@@ -1,5 +1,7 @@
 # SmartCourseFinder-HMI
 
+This project was built by [Joshua Porunnedath Biju](https://github.com/JOSHUAPBIJU) and [Joyel Porunnedath Biju](https://github.com/joyelpbiju)
+
 SmartCourseFinder-HMI is an intelligent web application for university course search, built using Python (Flask), SQLite, JavaScript, HTML, and CSS. This app interprets both explicit and implicit queries, using advanced vectorization techniques and word mapping to deliver precise and relevant course search results.
 
  #Features
