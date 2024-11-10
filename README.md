@@ -39,17 +39,15 @@ Make sure you have the following installed:
 - spaCy (for natural language processing)
 - Googletrans (for language translation)
 
-### Libraries
-Install the necessary libraries using `pip`:
 
 ```bash
 pip install Flask sqlite3 numpy sentence-transformers googletrans==4.0.0-rc1 spacy
 python -m spacy download en_core_web_sm
 E:/HSM/project_hmi/webappcoursespot/db/  -setting up the database 
 python app.py - command to run  the application
+```
 
-
-## Querying Courses
+  ## Querying Courses
 You can search for courses using either explicit operators or natural language queries. Examples of supported queries:
 
 - **Explicit Queries**: Use operators like `title:`, `instructor:`, `credit:`, etc., to narrow down results.
@@ -75,6 +73,16 @@ If a course has an associated PDF file, you can download it by clicking the "Dow
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+### Libraries
+Install the necessary libraries using `pip`:
+
+
+
+
+
+
 
 
 
